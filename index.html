@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Seron Universe Wiki – Rise of Seron: Rebirth</title>
+  <style>
+    :root {
+      --bg-main: #021b10;
+      --bg-panel: #062818;
+      --bg-accent: #0b3b24;
+      --border-gold: #c9a44b;
+      --text-main: #e5ffe9;
+      --text-muted: #9cc3a3;
+      --link: #8fdc7b;
+      --link-hover: #c9ff9b;
+    }
+
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(circle at top, #06351f 0, #02140c 40%, #000 100%);
+      color: var(--text-main);
+      margin: 0;
+      padding: 0;
+    }
+
+    .frame {
+      max-width: 1100px;
+      margin: 32px auto;
+      padding: 28px;
+      background: linear-gradient(145deg, #041c11, #062818);
+      border: 2px solid var(--border-gold);
+      border-radius: 14px;
+      box-shadow: 0 0 40px rgba(201, 164, 75, 0.25);
+      position: relative;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-shadow: 0 0 12px rgba(143, 220, 123, 0.6);
+    }
+
+    header h2 {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-top: 6px;
+    }
+
+    .divider {
+      width: 80%;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--border-gold), transparent);
+      margin: 20px auto;
+      position: relative;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "⟡";
+      position: absolute;
+      top: -10px;
+      color: var(--border-gold);
+      font-size: 1.1rem;
+    }
+
+    .divider::before { left: 0; }
+    .divider::after { right: 0; }
+
+    .intro {
+      background: radial-gradient(circle at top left, #0b3b24 0, #041c11 55%);
+      padding: 18px;
+      border-radius: 10px;
+      border: 1px solid rgba(201, 164, 75, 0.35);
+      margin-bottom: 26px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 26px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--link);
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: 1px solid rgba(201, 164, 75, 0.6);
+      background: radial-gradient(circle at top, #0b3b24 0, #041c11 70%);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: 0.18s;
+    }
+
+    nav a:hover {
+      color: var(--link-hover);
+      border-color: var(--link-hover);
+      box-shadow: 0 0 12px rgba(143, 220, 123, 0.7);
+      transform: translateY(-1px);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 26px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      color: var(--border-gold);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="frame">
+    <header>
+      <h1>The Seron Universe Wiki</h1>
+      <h2>Rise of Seron: Rebirth</h2>
+      <div class="divider"></div>
+    </header>
+
+    <section class="intro">
+      <p>
+        Welcome to the reborn continuity of <strong>The Seron Universe</strong>.  
+        This is the new timeline of <strong>Rise of Seron</strong>, rebuilt from the ground up with
+        new lore, new worlds, and new destinies.
+      </p>
+
+      <p>
+        At the center of this universe stands <strong>Seron Tenebris</strong> —  
+        <em>The Dark Star</em>, the main hero and the cosmic anchor of all timelines.
+      </p>
+
+      <p>
+        Explore the categories below to begin shaping the characters and stories of this new era.
+      </p>
+    </section>
+
+    <nav>
+      <a href="characters/index.html">Characters</a>
+      <a href="stories/index.html">Stories</a>
+    </nav>
+
+    <footer>
+      <p>
+        This wiki documents the <span>Rebirth Continuity</span> of The Seron Universe.  
+        Characters and stories will be added as the universe expands.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
